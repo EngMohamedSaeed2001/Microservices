@@ -20,6 +20,7 @@
         <module>Inventory</module>
         <module>Discovery-Service</module>
         <module>Api-Gateway</module>
+        <module>notification-service</module>
     </modules>
     <properties>
         <java.version>17</java.version>

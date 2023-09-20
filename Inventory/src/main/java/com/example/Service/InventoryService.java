@@ -23,9 +23,9 @@ public class InventoryService {
     @Transactional(readOnly = true)
     @SneakyThrows
     public List<InventoryResponse> check(List<String> code){
-        log.info("wait start");
-        Thread.sleep(10000);
-        log.info("wait end");
+//        log.info("wait start");
+//        Thread.sleep(10000);
+//        log.info("wait end");
         return inventoryRepo.findBySkcodeIn(code).stream()
                 .map(inventory -> InventoryResponse.builder()
                         .code(inventory.getSkcode())
