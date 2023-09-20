@@ -15,11 +15,10 @@
     <name>demo</name>
     <description>demo</description>
     <modules>
-        <module>Customer</module>
         <module>Product</module>
         <module>Order</module>
         <module>Inventory</module>
-        <module>Discovery-Server</module>
+        <module>Discovery-Service</module>
         <module>Api-Gateway</module>
     </modules>
     <properties>

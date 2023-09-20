@@ -17,7 +17,7 @@ public class InventoryController {
 
     @GetMapping()
     @ResponseStatus(HttpStatus.OK)
-    public List<InventoryResponse> check(@RequestParam List<String> code){
+    public List<InventoryResponse> check(@RequestParam List<String> code) {
       return inventoryService.check(code);
     }
 }

@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Order" />
         <module name="Product" />
-        <module name="Discovery-Server" />
+        <module name="Discovery-Service" />
         <module name="Api-Gateway" />
         <module name="Inventory" />
       </profile>
@@ -25,7 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Api-Gateway" options="-parameters" />
       <module name="Customer" options="-parameters" />
-      <module name="Discovery-Server" options="-parameters" />
+      <module name="Discovery-Service" options="-parameters" />
       <module name="DiscoveryService" options="-parameters" />
       <module name="Inventory" options="-parameters" />
       <module name="Order" options="-parameters" />
